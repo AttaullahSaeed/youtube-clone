@@ -1,0 +1,28 @@
+.videoCard{
+    margin-bottom: 40px;
+    width: 270px;
+    cursor: pointer;
+}
+.video-card{
+    height: 140px;
+    width: 240px;
+    cursor: pointer;
+    
+}
+.videoCard_info{
+    display: flex;
+    margin-top: 10px;
+    padding-right: 30px;
+    cursor: pointer;
+}
+.video_text{
+    margin-left: 15px;
+    color: black;
+    cursor: pointer;
+}
+.video_text p{
+    color:lightslategray;
+}
+.video_text p:hover{
+    color: black;
+}

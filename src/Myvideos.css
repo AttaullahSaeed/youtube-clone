@@ -1,0 +1,13 @@
+.Myvideoss{
+    flex: 1;
+    border: 0.5px solid gainsboro;
+    background-color: #f9f9f9;
+    padding: 40px 20px;
+    padding-bottom: 0;
+}
+.videos-possition{
+    display: flex;
+    flex-wrap: wrap;
+    
+    justify-content: center;
+}

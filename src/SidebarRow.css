@@ -1,0 +1,39 @@
+.sidebarRow{
+display: flex;
+align-items: center;
+
+}
+.sidebarRow_icon{
+    color: #606060;
+ margin-left: 13px;
+ margin-bottom: 15px;
+ font-size: small;
+}
+.sidebarRow_title{
+    flex: 1;
+    margin-left: 13px;
+    margin-bottom: 15px;
+   font-size: medium;
+}
+.hr_line{
+    width: 200px;
+}
+.sidebarRow:hover{
+    background-color: lightgray;
+    cursor: pointer;
+}
+.sidebarRow:hover > .sidebarRow_icon{
+    color: red;
+}
+.sidebarRow:hover > .sidebarRow_title{
+    font-weight: bold;
+}
+.sidebarRow.selected {
+    background-color: lightgrey;
+}
+.sidebarRow.selected >.sidebarRow_icon{
+    color: red;
+}
+.sidebarRow.selected >.sidebarRow_title{
+    font-weight: bold;
+}
